@@ -1,0 +1,134 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "checksign",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "largest",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_Number",
+						"type": "int256"
+					}
+				],
+				"name": "setNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "num",
+						"type": "uint16"
+					}
+				],
+				"name": "setNumberToWsrds",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "Number1",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint16",
+						"name": "Number2",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint16",
+						"name": "Number3",
+						"type": "uint16"
+					}
+				],
+				"name": "setNumbers",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "words",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Activity/SmartContract 1/question1.sol": "MathFunctions"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Activity/SmartContract 1/question1.sol": {
+			"keccak256": "0xe10488a317732a7d6dc1ab3a39f2652eff48e7e695d69bd4585e7b795eef5fba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0bc42785e1ddd2635156234963c7a6189844a881ad3a28afb5352ead1f9f4976",
+				"dweb:/ipfs/QmY6cPLsRMHzCZo2hR2bCb51soDwJVsJuZyetmP6yD9JQf"
+			]
+		}
+	},
+	"version": 1
+}

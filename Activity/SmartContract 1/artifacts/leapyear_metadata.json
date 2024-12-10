@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Leapyear",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "Year",
+						"type": "uint16"
+					}
+				],
+				"name": "setyear",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Activity/SmartContract 1/question2.sol": "leapyear"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Activity/SmartContract 1/question2.sol": {
+			"keccak256": "0x8cec9bf84a96f8492f5ae6decb1d627f625ee73a221bcb057aea4a138f04829e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b23db052028085b3123eb93c23d394562a85d89c415c7efe337edd3dbe0118d2",
+				"dweb:/ipfs/QmU2e2yHBV966twhxfw7Ei1fgesjdnVkBQ79cRBAwUdGJx"
+			]
+		}
+	},
+	"version": 1
+}
