@@ -13,7 +13,7 @@ contract BooksRecord {
 
     // Convert Ether value to Wei
     function ethToWei(uint eval) public pure returns (uint) {
-        return eval * 1 ether;
+        return eval * 1000000000000000000;
     }
 
     // Function to set employee details
@@ -25,7 +25,6 @@ contract BooksRecord {
 
     }
 
-    // Function to get employee details
     function getBookdetails()public view returns (string memory,uint16)
     {
         return (
@@ -40,7 +39,7 @@ contract BooksRecord {
         uint priceInWei = ethToWei(mybook.price);
         if(msg.value<priceInWei)
         {
-               // Underpayment: refund the entire amount to the buyer
+            //
             payable(msg.sender).transfer(msg.value);
             revert("Insufficient payment: Amount refunded to buyer");
         }
