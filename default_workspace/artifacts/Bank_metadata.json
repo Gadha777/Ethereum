@@ -7,6 +7,24 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "deposit",
 				"outputs": [],
 				"stateMutability": "payable",
@@ -85,11 +103,11 @@
 	},
 	"sources": {
 		"default_workspace/Bank.sol": {
-			"keccak256": "0xdf07d918d8b4264fac8bd74b99ab29a37c80f0902a758afde051c31eb263f0c8",
+			"keccak256": "0x3dfa2b48e9fdca4b119b49a23a975ec9e50262587f2b3b2ca681ae7a5551a472",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d9330dc17b990607eb1689175c91c2e36f38ac989180106e2c04ae2a1f0c4fc1",
-				"dweb:/ipfs/QmdTVcrNpxWUjun2B19jTUq4PCZZdngypzKyK5pjk6ygtx"
+				"bzz-raw://171c9a7abfd425604695d57e3a9ded53d31130e89e58ed06764f1af949abc09d",
+				"dweb:/ipfs/QmVRsfKhb4kxiqkxbKtrWygPcKEL7koe5QAEKdVfXg9mTT"
 			]
 		}
 	},

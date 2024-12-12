@@ -1,0 +1,169 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_Name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_SemNo",
+						"type": "uint16"
+					},
+					{
+						"internalType": "enum SMS.department",
+						"name": "_dept",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_CGPA",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_Rollno",
+						"type": "uint16"
+					}
+				],
+				"name": "addstudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_SemNo",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum SMS.department",
+						"name": "_dept",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_CGPA",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_Rollno",
+						"type": "uint16"
+					}
+				],
+				"name": "editData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_Name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_Rollno",
+						"type": "uint16"
+					}
+				],
+				"name": "editName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "_Rollno",
+						"type": "uint16"
+					}
+				],
+				"name": "getstudent",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "SemNo",
+						"type": "uint16"
+					},
+					{
+						"internalType": "enum SMS.department",
+						"name": "dept",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint16",
+						"name": "CGPA",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint16",
+						"name": "Rollno",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Activity/SmartContract2/SMS.sol": "SMS"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Activity/SmartContract2/SMS.sol": {
+			"keccak256": "0xdec7bfffce3141d6891b66b254c72e4483f747b1219cfcb6f2ea2ef7c2645670",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4705e5963a2eb08fdf6cc21fe3760e896c501faf65867cfa3e56a8ac08b847b1",
+				"dweb:/ipfs/QmZb4qFGshZs5y7or5AAoZqSUF2oY4TttqELQ4H6hHLJj5"
+			]
+		}
+	},
+	"version": 1
+}
