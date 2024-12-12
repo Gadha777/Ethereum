@@ -3,6 +3,10 @@ pragma solidity 0.8.26;
 
 contract Bank{
     mapping (address=>uint) balanceledger;
+    address public admin;
+    constructor(){
+        admin=msg.sender;
+    }
     modifier balancecheck(uint amount){
      require(balanceledger[msg.sender]>=amount ,"insufficient amount");
      _;
