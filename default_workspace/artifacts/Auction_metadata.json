@@ -1,0 +1,136 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "carauctions",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "ownername",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "car",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "model",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address payable",
+						"name": "owneraddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_newownername",
+						"type": "string"
+					}
+				],
+				"name": "changeowner",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_ownername",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_car",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_model",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_price",
+						"type": "uint256"
+					}
+				],
+				"name": "issue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"default_workspace/Auction.sol": "Auction"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"default_workspace/Auction.sol": {
+			"keccak256": "0x657d01e6eb6162bfde991dd74b62ce73c8aa9b5fa44ec57e8e8df63d21bdf9e2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d8269c36a6cff72ec12714d9ab758d98fcb53364a140a0d2b8a956a5a5af7edb",
+				"dweb:/ipfs/QmRCQPCwPk5H52cbVEuB8UDnj6Mw8XutpP87DJzob2iXDQ"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_plotPrice",
+						"type": "uint256"
+					}
+				],
+				"name": "Auction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "plots",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "plotName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "plotPrice",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "Exist",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"default_workspace/Auction.sol": "Plot"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"default_workspace/Auction.sol": {
+			"keccak256": "0x546af70a4ca616db7bc245e1f899e7940930973f58bf45d2d2707754f1636f0f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d3f4b366ae26cc601d1825945073b7b055b484a2dc61a39deb6713c19ce09453",
+				"dweb:/ipfs/QmP4yoGz9RfkVWZVj9U8gUKYfBwE8WjGnFgGrpqWGtsc5x"
+			]
+		}
+	},
+	"version": 1
+}
