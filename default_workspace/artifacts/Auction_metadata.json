@@ -13,7 +13,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "carauctions",
+				"name": "bookauctions",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -22,12 +22,7 @@
 					},
 					{
 						"internalType": "string",
-						"name": "car",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "model",
+						"name": "book",
 						"type": "string"
 					},
 					{
@@ -76,12 +71,7 @@
 					},
 					{
 						"internalType": "string",
-						"name": "_car",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_model",
+						"name": "_book",
 						"type": "string"
 					},
 					{
@@ -124,11 +114,11 @@
 	},
 	"sources": {
 		"default_workspace/Auction.sol": {
-			"keccak256": "0x657d01e6eb6162bfde991dd74b62ce73c8aa9b5fa44ec57e8e8df63d21bdf9e2",
+			"keccak256": "0x2ecfcc788ffbf8717f263fb2e4633981eb6c638ccd3d6a4823cdfe393d00bbc8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d8269c36a6cff72ec12714d9ab758d98fcb53364a140a0d2b8a956a5a5af7edb",
-				"dweb:/ipfs/QmRCQPCwPk5H52cbVEuB8UDnj6Mw8XutpP87DJzob2iXDQ"
+				"bzz-raw://d3898fd18039a04b746d8a77c0806a958539d997404ba96e7fd0ab78d736db0e",
+				"dweb:/ipfs/Qmc6AKDyiEqvXj2BaD1RhVRGarXZJwxdhBpCc4jmFUeXWx"
 			]
 		}
 	},

@@ -2,29 +2,26 @@
 pragma solidity 0.8.28;
 
 contract Auction {
-    struct carauction {
+    struct bookauction {
         string ownername; 
-        string car;       
-        string model;   
+        string book;       
         uint256 price;   
         address payable owneraddress;
     }
 
     address  admin = msg.sender; 
-    mapping(uint256 => carauction) public carauctions; 
+    mapping(uint256 => bookauction) public bookauctions; 
     
-    //new car for auction
+    //new book for auction
     function issue(
         uint256 _id,
         string memory _ownername,
-        string memory _car,
-        string memory _model,
+        string memory _book,
         uint256 _price
     ) public {
-        carauctions[_id] = carauction({
+        bookauctions[_id] = bookauction({
             ownername: _ownername,
-            car: _car,
-            model: _model,
+            book: _book,
             price: _price,
             owneraddress: payable(msg.sender) // The issuer becomes the initial owner
         });
@@ -35,7 +32,7 @@ contract Auction {
         uint256 _id,
         string memory _newownername
     ) public payable {
-        carauction storage auction = carauctions[_id];
+        bookauction storage auction = bookauctions[_id];
 
         require(msg.value > auction.price, "your price is lower than the current price.");
 
